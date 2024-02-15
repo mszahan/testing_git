@@ -1,2 +1,4 @@
 hola
 added antoher file
+just modified to see the changes in short form
+added antoher line to unstaged

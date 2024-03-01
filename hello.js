@@ -15,3 +15,6 @@ for (let i = 0; i < list.length; i++) {
 console.log("c", c);
 console.log("b", b);
 console.log("a", a);
+let d = list.map((item, index) => {
+  console.log(`the value of no. ${index} is ${item}`);
+});

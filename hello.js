@@ -11,3 +11,7 @@ const list = ["a", "b", "c", 15];
 for (let i = 0; i < list.length; i++) {
   console.log(list[i]);
 }
+
+console.log("c", c);
+console.log("b", b);
+console.log("a", a);

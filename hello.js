@@ -1,1 +1,1 @@
-hello_world
+let b = 10;

@@ -1,2 +1,2 @@
 let age = 0;
-console.log(age);
+console.log('age:', age);

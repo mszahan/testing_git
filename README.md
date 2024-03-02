@@ -1,17 +1,31 @@
 ##### Git docs
 
-**Staging Files**
+> **Staging Files**
 
-_Stage multiple file_
-
-```
-git add file1.js file2.js
+- Stage multiple file
 
 ```
-
-> Stages with a pattern
+git add file_name file_name
 
 ```
-git add *.js
+
+- Stages with a pattern
+
+```
+git add *.file_extention
+
+```
+
+- Stages the current directory and all its content
+
+```
+git add .
+
+```
+
+> **Skipping the staging area**
+
+```
+git commit -am “commit message”
 
 ```

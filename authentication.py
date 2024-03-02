@@ -22,7 +22,7 @@ users = [
 ]
 
 for user in users:
-    if user['authenticated'] == True:
+    if user['authenticated']:
         print(f"{user['name']} is authenticated")
     else:
         print(f"{user['name']} is not authenticated")

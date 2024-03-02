@@ -1,0 +1,21 @@
+:root {
+  --theme-info-color: blue;
+  ---theme-alert-color: red;
+  --theme-success-color: green;
+}
+
+.info {
+  background: var(--theme-info-color);
+  box-shadow: 0 1px rgba(var(--theme-info-color), 0.25);
+  color: #fff;
+}
+.alert {
+  background: var(--theme-alert-color);
+  box-shadow: 0 1px rgba(var(---theme-alert-color), 0.25);
+  color: #fff;
+}
+.success {
+  background: var(--theme-success-color);
+  box-shadow: 0 1px rgba(var(--theme-success-color), 0.25);
+  color: #fff;
+}

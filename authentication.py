@@ -14,6 +14,11 @@ users = [
         'username': 'tonmoy3270',
         'authenticated': False
      },
+    {
+        'name': 'Josephine Langford Ali',
+        'username': 'jlali',
+        'authenticated': True
+     },
 ]
 
 for user in users:
